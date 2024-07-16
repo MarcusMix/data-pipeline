@@ -1,0 +1,45 @@
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs e dados temporários
+logs/
+*.log
+
+# Arquivos de configuração sensíveis
+.env
+credentials.json
+
+# Diretórios de dependências
+venv/
+__pycache__/
+node_modules/
+
+# Arquivos de compilação e ambientes de build
+dist/
+build/
+
+# Arquivos temporários do sistema
+*.tmp
+*.temp
+*.swp
+
+# Airflow
+airflow.db
+airflow.cfg
+airflow/airflow-webserver.pid
+airflow/airflow-monitor.pid
+
+# Containers e dependências
+docker-compose.yaml
+dockerfile
+
+# Arquivos de backup
+*.bak
+
+# Ferramentas de linting
+.mypy_cache/
+.pyre/
+.pytype/
+cython_debug/
