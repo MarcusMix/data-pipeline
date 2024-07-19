@@ -20,7 +20,7 @@ dag = DAG(
     'automation_scraping',
     default_args=default_args,
     description='Pipeline de dados que automatiza o processo de webscraping das lojas de aplicativos e abastece as planilhas necessárias',
-    schedule_interval="0 10 * * 1",
+    schedule_interval="0 13 * * 1",
     tags=['etl pipeline', 'data pipeline', 'seg 10h'],
     concurrency=1,
     max_active_runs=1 

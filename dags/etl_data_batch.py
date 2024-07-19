@@ -23,7 +23,7 @@ dag = DAG(
     'etl_data_batch',
     default_args=default_args,
     description="Pipeline ETL dos dados derivados da dag *automation_scraping*",
-    schedule_interval="0 11 * * 1",
+    schedule_interval="0 14 * * 1",
     tags=['etl pipeline', 'data pipeline', 'seg 11h'],
     default_view='graph',
     concurrency=1,
