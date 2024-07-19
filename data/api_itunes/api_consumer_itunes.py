@@ -18,7 +18,7 @@ titulos = []
 comentarios = []
 app_name = []
 
-data_limite = datetime.now() - timedelta(days=9)
+data_limite = datetime.now() - timedelta(days=7)
 
 def format_iso_date(data_comentario):
     try:
@@ -67,7 +67,8 @@ def api():
                         if data_comentario_formatada and data_comentario_formatada > data_limite:
                             autores.append(autor)
                             datas.append(format_iso_date(data_comentario))
-                            stars.append(star)
+                            # TESTE DE CASTING DE star PARA FLOAT
+                            stars.append(float(star))
                             titulos.append(title)
                             comentarios.append(content)
                             app_name.append(app["name"])

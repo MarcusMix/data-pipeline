@@ -19,7 +19,7 @@ class MySpider(scrapy.Spider):
         self.driver = web_driver()
         self.contador_erros = 0
         self.contador_sucessos = 0
-        self.data_limite = datetime.now() - timedelta(days=14)
+        self.data_limite = datetime.now() - timedelta(days=7)
     
     def parse(self, response):
         self.driver.get(response.url)
@@ -80,7 +80,8 @@ class MySpider(scrapy.Spider):
                     'plataforma' : 'google',
                     'user_reviewer': item.css('div.X5PpBb::text').get(),
                     'date': format_date(item.css('span.bp9Aid::text').get()),
-                    'stars': star,
+                    # stars PARA FLOAT
+                    'stars': float(star),
                     'commentary' : item.css('div.h3YV2d::text').get(),
                     'user_response' : item.css('div.I6j64d::text').get(),
                     'date_response' : format_date(item.css('div.I9Jtec::text').get()) if item.css('div.I9Jtec::text').get() else None,

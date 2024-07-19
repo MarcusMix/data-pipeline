@@ -60,8 +60,8 @@ class MySpider(scrapy.Spider):
         yield {
             'app_name' : page_name.strip(),
             'date': datetime.now().date(),
-            'star': star,
-            'avaliacoes_totais' : avaliacoes_totais 
+            'star': float(star),
+            'avaliacoes_totais' : avaliacoes_totais
         }
 
     def closed(self, reason):

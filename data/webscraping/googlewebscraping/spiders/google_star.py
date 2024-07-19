@@ -44,22 +44,20 @@ class MySpider(scrapy.Spider):
                 avaliacoes == 0
             return 0
         
-        
-
         def clean_downloads(downloads):
             if downloads:
                 downloads = downloads.replace('mil+', '000').replace('+', '').replace('mil', '000')
                 return int(re.sub(r'[^0-9]', '', downloads))
             return 0
         
-
         avaliacoes_totais = clean_avaliacoes(avaliacoes_totais_raw)
         downloads_totais = clean_downloads(downloads_totais_raw)
 
         yield {
             'app_name': page_name,
             'data': datetime.now().date(),
-            'star': star,
+            # star CASTING FLOAT
+            'star': float(star),
             'avaliacoes_totais': avaliacoes_totais,
             'downloads_totais': downloads_totais,
         }
