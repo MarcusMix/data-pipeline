@@ -56,8 +56,7 @@ class MySpider(scrapy.Spider):
         yield {
             'app_name': page_name,
             'data': datetime.now().date(),
-            # star CASTING FLOAT
-            'star': float(star),
+            'star': star,
             'avaliacoes_totais': avaliacoes_totais,
             'downloads_totais': downloads_totais,
         }
