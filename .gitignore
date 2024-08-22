@@ -6,6 +6,8 @@ Thumbs.db
 # Logs e dados temporários
 logs/
 *.log
+*.xlsx
+*.csv
 
 # Arquivos de configuração sensíveis
 .env
