@@ -5,6 +5,7 @@ from airflow.operators.email_operator import EmailOperator
 from datetime import datetime
 import os
 import subprocess
+from datetime import timedelta
 
 data_execucao = datetime.now().date()
 
@@ -105,9 +106,11 @@ def fetch_webscraping_apple_star():
 check_api = HttpSensor(
     task_id="check_api",
     http_conn_id="API_ITUNES",
-    endpoint="/id=1121080703/sortby=mostrecent/json?cc=br",
-    poke_interval=5,
-    timeout=20,
+    endpoint="/id=1594660242/sortby=mostrecent/json?cc=br",
+    poke_interval=30,
+    timeout=300,
+    retries=5,  # Tenta 5 vezes antes de falhar
+    retry_delay=timedelta(minutes=5),
     dag=dag
 )
 
