@@ -59,7 +59,8 @@ class MySpider(scrapy.Spider):
 
         self.contador_sucessos += 1
 
-        page_name = sel_response.css('h1.Fd93Bb::text').get()
+        page_name = sel_response.css('span.AfwdI::text').get()
+        # page_name = sel_response.css('h1.Fd93Bb::text').get()
         for item in sel_response.css('div.RHo1pe'):
             div_star = item.css('div.iXRFPc')
             if div_star:

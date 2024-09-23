@@ -21,7 +21,8 @@ class MySpider(scrapy.Spider):
         html = self.driver.page_source
         sel_response = scrapy.Selector(text=html)
 
-        page_name = sel_response.css('h1.Fd93Bb::text').get()
+        # page_name = sel_response.css('h1.Fd93Bb::text').get()
+        page_name = sel_response.css('span.AfwdI::text').get()
 
         star = sel_response.css('div.TT9eCd::text').get()
         avaliacoes_totais_raw = sel_response.css('div.g1rdde::text').get()
