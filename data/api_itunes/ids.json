@@ -4,6 +4,10 @@
         "name": "Orsegups Monitoramento Eletrônico Ltda"
     },
     {
+        "id": "nan",
+        "name": "Liderança Administradora de Condomínios"
+    },
+    {
         "id": 6502520749,
         "name": "Cetecol / Paradigma Condomínios"
     },
@@ -16,8 +20,8 @@
         "name": "SENSATO Condomínios"
     },
     {
-        "id": 1221018612,
-        "name": "Sensato Centro 2"
+        "id": 1290408733,
+        "name": "Correta"
     },
     {
         "id": 1516644270,
@@ -28,8 +32,28 @@
         "name": "Novara"
     },
     {
+        "id": 1328559649,
+        "name": "CANCELADO Síndico Online Gestão Condominial"
+    },
+    {
+        "id": 1220975737,
+        "name": "Syndikos Curitiba (contrato cancelado)"
+    },
+    {
+        "id": 1243627025,
+        "name": "Shadai (trial)"
+    },
+    {
         "id": 1264400289,
         "name": "Intuitive Condominial"
+    },
+    {
+        "id": 1262906828,
+        "name": "Ilha Floripa Condominios - CONTRATO CANCELADO"
+    },
+    {
+        "id": 1291133340,
+        "name": "CANCELADO Ágile"
     },
     {
         "id": 1305105984,
@@ -42,6 +66,10 @@
     {
         "id": 1319450449,
         "name": "ADC Condomínios"
+    },
+    {
+        "id": 1327133702,
+        "name": "Dicon Condominial / Granato (contrato cancelado)"
     },
     {
         "id": 1397250917,
@@ -64,12 +92,24 @@
         "name": "UPTIME"
     },
     {
+        "id": 1383369144,
+        "name": "EAL (contrato cancelado)"
+    },
+    {
         "id": 1397266791,
         "name": "Zimmermann Condomínios"
     },
     {
+        "id": 1397650516,
+        "name": "CONTRATO CANCELADO LM MELO ADM DE BENS E CONDOMINIOS LTDA"
+    },
+    {
         "id": 6476882276,
         "name": "ZELLO"
+    },
+    {
+        "id": 1411577979,
+        "name": "VARONE"
     },
     {
         "id": 1467288908,
@@ -88,16 +128,12 @@
         "name": "TAQUARI"
     },
     {
-        "id": 1264400289,
-        "name": "Alphaville"
-    },
-    {
         "id": 1361674583,
         "name": "SEVAL"
     },
     {
         "id": 1475783945,
-        "name": "COELHO & MARTINS"
+        "name": "COELHO & MARTINS "
     },
     {
         "id": 1431781080,
@@ -109,11 +145,19 @@
     },
     {
         "id": 1446472682,
-        "name": "KHRONOS"
+        "name": "KHRONOS "
+    },
+    {
+        "id": 1440814146,
+        "name": "CONÉTICA"
     },
     {
         "id": 1440696415,
         "name": "GRUPO MORAES - SÃO CAETANO DO SUL"
+    },
+    {
+        "id": 1447378693,
+        "name": "CANCELADO ÁPICE"
     },
     {
         "id": 1449172273,
@@ -126,6 +170,10 @@
     {
         "id": 1459994986,
         "name": "Neval Condomínios"
+    },
+    {
+        "id": 1449584384,
+        "name": "Sabaleia"
     },
     {
         "id": 1477345596,
@@ -141,15 +189,31 @@
     },
     {
         "id": 1560861727,
-        "name": "LOAN"
+        "name": "LOAN "
     },
     {
         "id": 1469600052,
         "name": "ZAFIRA EMPREENDIMENTOS - JDR"
     },
     {
+        "id": 1508391737,
+        "name": "BFPRIME"
+    },
+    {
+        "id": 1121080703,
+        "name": "Winker"
+    },
+    {
         "id": 1475543734,
-        "name": "EXACTO"
+        "name": "EXACTO "
+    },
+    {
+        "id": 1480052974,
+        "name": "ADELANTE FLORIANÓPOLIS CONTRATO CANCELADO 10/2020"
+    },
+    {
+        "id": 1586011955,
+        "name": "GRUPO ATUALSP ADM - CONTRATO CANCELADO"
     },
     {
         "id": 1486607583,
@@ -161,27 +225,39 @@
     },
     {
         "id": 1499529397,
-        "name": "FICAM"
+        "name": "FICAM "
     },
     {
         "id": 1530082502,
-        "name": "Iate Marine Lanchas Compartilhadas - Vieitez"
+        "name": "Iate Marine Lanchas Compartilhadas - Vieitez "
     },
     {
         "id": 1499651006,
-        "name": "LLOYD"
+        "name": "LLOYD "
     },
     {
         "id": 1502291177,
-        "name": "INOVARALFA ADMINISTRADORA"
+        "name": "CANCELADA INOVARALFA ADMINISTRADORA "
     },
     {
         "id": 1511577290,
         "name": "MORITZ/LUMIS"
     },
     {
+        "id": 1526301311,
+        "name": "INATIVO NÃO UTILIZAR - SPX ADMINISTRACAO DE CONDOMINIOS"
+    },
+    {
+        "id": 1524961967,
+        "name": "JENSEN/IDEAL COBRANCAS GARANTIDAS "
+    },
+    {
         "id": 1659858503,
-        "name": "CONECTA"
+        "name": "CONECTA "
+    },
+    {
+        "id": 1530038580,
+        "name": "CANCELADA XP SERVIÇOS"
     },
     {
         "id": 1528526821,
@@ -189,15 +265,19 @@
     },
     {
         "id": 1559605217,
-        "name": "Condominium Assessoria Contábil e Soluções Imobiliárias"
+        "name": "CANCELADA - Condominium Assessoria Contábil e Soluções Imobiliárias"
     },
     {
         "id": 1527472851,
-        "name": "PRO RADAR MONITORAMENTO"
+        "name": "PRO RADAR MONITORAMENTO "
+    },
+    {
+        "id": 1544325771,
+        "name": "CANCELADA - Ação Segurança"
     },
     {
         "id": 1535022122,
-        "name": "GRUPO SIS"
+        "name": "GRUPO SIS "
     },
     {
         "id": 1658632260,
@@ -205,15 +285,19 @@
     },
     {
         "id": 1531525589,
-        "name": "CGC EXCELENT"
+        "name": "CGC EXCELENT   "
+    },
+    {
+        "id": 1532223958,
+        "name": "CANCELADO Grupo Max Forte"
     },
     {
         "id": 1539184034,
-        "name": "V.J. GALLO"
+        "name": "V.J. GALLO "
     },
     {
         "id": 1530276974,
-        "name": "QUALLYGESTAO"
+        "name": "QUALLYGESTAO "
     },
     {
         "id": 1535090299,
@@ -221,11 +305,7 @@
     },
     {
         "id": 1551798257,
-        "name": "VIP ADMINISTRACAO"
-    },
-    {
-        "id": 1553068332,
-        "name": "GROUP INNOVARE"
+        "name": "VIP ADMINISTRACAO "
     },
     {
         "id": 1555529547,
@@ -233,23 +313,15 @@
     },
     {
         "id": 1551805846,
-        "name": "SOUZA & REIS"
+        "name": "SOUZA & REIS "
     },
     {
-        "id": 1535022122,
-        "name": "RUMAN SOLUTIONS CONSULTORIAS E ADMINISTRAÇÃO DE CONDOMÍNIOS LTDA"
+        "id": 1555471887,
+        "name": "Unicred do Brasil"
     },
     {
         "id": 1551980427,
         "name": "SEVEN CONDOMINIOS"
-    },
-    {
-        "id": 1535022122,
-        "name": "SNAGEL ADMINISTRAÇÃO DE CONDOMÍNIOS EIRELI"
-    },
-    {
-        "id": 1535022122,
-        "name": "CANCELADA GRUPO AVALIA ADMINISTRACAO CONDOMINIAL"
     },
     {
         "id": 1644885336,
@@ -265,7 +337,7 @@
     },
     {
         "id": 1566412410,
-        "name": "ZANGARI GESTAO"
+        "name": "ZANGARI GESTAO "
     },
     {
         "id": 1566042315,
@@ -277,7 +349,7 @@
     },
     {
         "id": 1567280092,
-        "name": "GRUPO REDETEL"
+        "name": "GRUPO REDETEL "
     },
     {
         "id": 1594660242,
@@ -297,11 +369,11 @@
     },
     {
         "id": 1591286075,
-        "name": "NOSSA CASA"
+        "name": "NOSSA CASA "
     },
     {
         "id": 1614255554,
-        "name": "VILLA BELLA"
+        "name": "VILLA BELLA "
     },
     {
         "id": 1593426633,
@@ -317,7 +389,7 @@
     },
     {
         "id": 1617142871,
-        "name": "CYSNE ADMINISTRADORA"
+        "name": "CYSNE ADMINISTRADORA "
     },
     {
         "id": 1621714549,
@@ -340,12 +412,16 @@
         "name": "Easy Access"
     },
     {
-        "id": 1621527300,
-        "name": "Exposec Winker"
-    },
-    {
         "id": 1644743439,
         "name": "ZENITE"
+    },
+    {
+        "id": 1644762547,
+        "name": "ELITE"
+    },
+    {
+        "id": 1644734443,
+        "name": "CANCELADA DELACROY"
     },
     {
         "id": 1644714348,
@@ -353,7 +429,7 @@
     },
     {
         "id": 6443724715,
-        "name": "CAPBENS IMOVEIS"
+        "name": "CAPBENS IMOVEIS "
     },
     {
         "id": 1671560526,
@@ -365,7 +441,7 @@
     },
     {
         "id": 6444046680,
-        "name": "GRUPO ATHUS"
+        "name": "GRUPO ATHUS "
     },
     {
         "id": 6463144274,
@@ -381,7 +457,7 @@
     },
     {
         "id": 6444363819,
-        "name": "EVEN CONSTRUTORA E INCORPORADORA"
+        "name": "EVEN CONSTRUTORA E INCORPORADORA "
     },
     {
         "id": 6447319417,
@@ -405,7 +481,7 @@
     },
     {
         "id": 6452119565,
-        "name": "NN NEGOCIOS"
+        "name": "NN NEGOCIOS "
     },
     {
         "id": 6452084667,
@@ -425,7 +501,7 @@
     },
     {
         "id": 6457477309,
-        "name": "RJJ SECURITY"
+        "name": "RJJ SECURITY "
     },
     {
         "id": 6457477311,
@@ -433,7 +509,7 @@
     },
     {
         "id": 6466514720,
-        "name": "J.H.I."
+        "name": "J.H.I. "
     },
     {
         "id": 6474199240,
@@ -441,11 +517,11 @@
     },
     {
         "id": 6470395359,
-        "name": "GC GESCON"
+        "name": "GC GESCON "
     },
     {
         "id": 6470950517,
-        "name": "EASY SAFE - CCS SERVICOS"
+        "name": "EASY SAFE - CCS SERVICOS "
     },
     {
         "id": 6472942640,
@@ -453,7 +529,11 @@
     },
     {
         "id": 6474567265,
-        "name": "ESTANCONFOR"
+        "name": "ESTANCONFOR "
+    },
+    {
+        "id": 6670766600,
+        "name": "ARMIS "
     },
     {
         "id": 6476881991,
@@ -472,8 +552,20 @@
         "name": "CLEVERTOWN CONDOMINIOS"
     },
     {
+        "id": 6651862910,
+        "name": "NATAL CONDOMINIO "
+    },
+    {
+        "id": 6504635943,
+        "name": "CONDMASTER "
+    },
+    {
         "id": 6503916779,
         "name": "LIC"
+    },
+    {
+        "id": 6717573055,
+        "name": "UNION SECURITY SYSTEMS"
     },
     {
         "id": 6502962558,
@@ -481,18 +573,94 @@
     },
     {
         "id": 6503916939,
-        "name": "BEELIVE ADMINISTRADORA"
+        "name": "Beelive Soluções Condomínios"
     },
     {
         "id": 6504118986,
-        "name": "ADAPLAN"
+        "name": "ADAPLAN "
     },
     {
         "id": 6503953744,
         "name": "FOCUS"
     },
     {
+        "id": 6670564416,
+        "name": "TRACON "
+    },
+    {
         "id": 6504417993,
-        "name": "DINAMO CONDOMINIOS E IMOVEIS"
+        "name": "DINAMO"
+    },
+    {
+        "id": 6670268042,
+        "name": "ANAUATE "
+    },
+    {
+        "id": 6739544142,
+        "name": "LC ASSESSORIA ADMINIST DE CONDOMINIOS E CONTABILIDADE"
+    },
+    {
+        "id": 6612031792,
+        "name": "RESCON "
+    },
+    {
+        "id": 6642710054,
+        "name": "CONLLI - GESTAO DE CONDOMINIOS"
+    },
+    {
+        "id": 6554000785,
+        "name": "VILLE SAINTE ANNE"
+    },
+    {
+        "id": 6673909186,
+        "name": "RAGHI CONDOMÍNIOS"
+    },
+    {
+        "id": 6642716834,
+        "name": "CONDOMINIO DO EDIFICIO TOP CENTER"
+    },
+    {
+        "id": 6680197198,
+        "name": "EFETIVA "
+    },
+    {
+        "id": 6738958628,
+        "name": "DELTTA - JOSE TIAGO"
+    },
+    {
+        "id": 6738091364,
+        "name": "UMUARAMA "
+    },
+    {
+        "id": 6738356966,
+        "name": "LOWNDES CONDOMINIOS E IMOVEIS"
+    },
+    {
+        "id": 6739291756,
+        "name": "VERSARI CONDOMINIOS INTELIGENTES"
+    },
+    {
+        "id": 6740006008,
+        "name": "M10 CONDOMINIOS"
+    },
+    {
+        "id": 1183797385,
+        "name": "Orsegups Monitoramento Eletrônico Ltda"
+    },
+    {
+        "id": 6502520749,
+        "name": "Cetecol / Paradigma Condomínios"
+    },
+    {
+        "id": 1304321982,
+        "name": "Parceria Condomínios"
+    },
+    {
+        "id": 1221018612,
+        "name": "SENSATO Condomínios"
+    },
+    {
+        "id": 1516644270,
+        "name": "Parteli"
     }
 ]

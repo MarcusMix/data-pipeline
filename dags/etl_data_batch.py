@@ -130,4 +130,5 @@ send_email_on_start = EmailOperator(
     dag=dag,
 )
 
-send_email_on_start >> task_apple_comments_etl >> task_google_comments_etl >> task_google_star_etl >> task_apple_star_etl 
+# send_email_on_start >> 
+task_apple_comments_etl >> task_google_comments_etl >> task_google_star_etl >> task_apple_star_etl 

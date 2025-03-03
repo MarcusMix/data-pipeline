@@ -109,7 +109,7 @@ check_api = HttpSensor(
     endpoint="/id=1594660242/sortby=mostrecent/json?cc=br",
     poke_interval=30,
     timeout=300,
-    retries=5,  # Tenta 5 vezes antes de falhar
+    retries=15,  
     retry_delay=timedelta(minutes=5),
     dag=dag
 )
@@ -146,4 +146,5 @@ send_email_on_start = EmailOperator(
     dag=dag,
 )
 
-send_email_on_start >> check_api >> task_apple_comments >> task_google_rating >> task_google_star >> task_apple_star
+# send_email_on_start >> 
+check_api >> task_apple_comments >> task_google_rating >> task_google_star >> task_apple_star
