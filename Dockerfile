@@ -54,6 +54,10 @@ USER airflow
 # Instalação do Scrapy e dependências com pip (fazendo isso como root)
 RUN pip install scrapy selenium pandas webdriver_manager
 
+# Setando o path pq senão o scrapy não carrega
+ENV PATH="/home/airflow/.local/bin:$PATH"
+ENV PYTHONPATH="/home/airflow/.local/lib/python3.7/site-packages:$PYTHONPATH"
+
 # Verificar a instalação do Scrapy
 RUN scrapy version
 
