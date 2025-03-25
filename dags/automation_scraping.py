@@ -103,16 +103,16 @@ def fetch_webscraping_apple_star():
     if result.returncode != 0:
         raise Exception(f"Erro ao executar o fetch_webscraping_apple_star: {result.stderr}")
 
-check_api = HttpSensor(
-    task_id="check_api",
-    http_conn_id="API_ITUNES",
-    endpoint="/id=1594660242/sortby=mostrecent/json?cc=br",
-    poke_interval=30,
-    timeout=300,
-    retries=15,  
-    retry_delay=timedelta(minutes=5),
-    dag=dag
-)
+# check_api = HttpSensor(
+#     task_id="check_api",
+#     http_conn_id="API_ITUNES",
+#     endpoint="/id=1594660242/sortby=mostrecent/json?cc=br",
+#     poke_interval=30,
+#     timeout=300,
+#     retries=15,  
+#     retry_delay=timedelta(minutes=5),
+#     dag=dag
+# )
 
 task_apple_comments = PythonOperator(
     task_id="task_apple_comments",
@@ -147,4 +147,5 @@ send_email_on_start = EmailOperator(
 )
 
 # send_email_on_start >> 
-check_api >> task_apple_comments >> task_google_rating >> task_google_star >> task_apple_star
+# check_api >> 
+task_apple_comments >> task_google_rating >> task_google_star >> task_apple_star

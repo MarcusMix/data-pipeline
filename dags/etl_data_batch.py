@@ -5,7 +5,7 @@ from datetime import datetime
 import pandas as pd
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
-import tempfile
+import tempfilepip
 
 data_execucao = datetime.now().date()
 
