@@ -34,8 +34,8 @@ airflow/airflow-webserver.pid
 airflow/airflow-monitor.pid
 
 # Containers e dependências
-docker-compose.yaml
-dockerfile
+#docker-compose.yaml
+#dockerfile
 
 # Arquivos de backup
 *.bak
